@@ -1,0 +1,52 @@
+body {
+  background: #C8C8A9;
+  text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.svg_copypasta {
+  margin: 50px auto;
+  width: 45%;
+}
+
+.logo {
+  fill: #FE4365;
+}
+
+.clip {
+  -webkit-animation: slide 8s infinite;
+          animation: slide 8s infinite;
+}
+
+@-webkit-keyframes slide {
+  from {
+    -webkit-transform: translateY(-135px);
+            transform: translateY(-135px);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+  to {
+    -webkit-transform: translateY(-135px);
+            transform: translateY(-135px);
+  }
+}
+
+@keyframes slide {
+  from {
+    -webkit-transform: translateY(-135px);
+            transform: translateY(-135px);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+  to {
+    -webkit-transform: translateY(-135px);
+            transform: translateY(-135px);
+  }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <title>Innmelding til nettforum - HEBIP-klubben</title>
+    <link rel="stylesheet" href="css/main.css" media="screen" title=""/>
+	<script type="text/javascript" src="js/javascript.js"></script>
+  </head>
+  <body>
+    <!-- // Side // -->
+    <div id="side" class="verdier">
+    <!-- // Logo // -->
+    <div id="header" class="">
+      <h1>HEBIP-klubben</h1>
+    </div>
+    <!-- // Sidetittel // -->
+    <div id="sidetittel" class="">
+      <h2>Lag brukerkonto for nettforumet</h1>
+    </div>
+    <!-- // Innmeldingsjema // -->
+    <div id="innmeldingsSjema" class="">
+      <form action="javascript:null" onsubmit="valideringFerdig()"/>
+        <table>
+          <tbody>
+            <tr>
+              <td><label for="fornavn">Fornavn *</label></td>
+              <td><input type="text" name="fornavn" id="fornavn" required /></td>
+            </tr>
+            <tr>
+              <td><label for="etternavn">Etternavn *</label></td>
+              <td><input type="text" name="etternavn" id="etternavn" required/></td>
+            </tr>
+            <tr>
+              <td><label for="alder">Fødselsdato *</label></td>
+              <td><input type="date" name="alder" id="alder" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01]).(0[1-9]|1[012]).[0-9]{4}" required /></td>
+            </tr>
+            <tr>
+              <td><label for="alleredeMedlem">Er du allerede medlem? *</label></td>
+              <td>
+                <label>Ja</label>
+                <input type="radio" name="alleredeMedlem"/>
+                <label>Nei</label>
+                <input type="radio" name="alleredeMedlem" required/>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="brukernavn">Brukernavn *</label></td>
+              <td><input type="text" name="brukernavn" id="brukernavn" required/></td>
+            </tr>
+            <tr>
+              <td><label for="passord">Passord *</label></td>
+              <td><input type="password" name="passord" id="passord" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="Passordet på være minst 6 tegn og inneholde bruke minst et tall og en stor bokstav" required ></td>
+            </tr>
+            <tr>
+              <td><br/>Alle felter merket med * <span class="kursiv">må</span> fylles ut!</td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- Knapper til sjemaet -->
+        <div id="sjemaKnapper" class="">
+          <input type="reset" name="reset" value="Nullstill"/>
+          <input type="submit" name="registrer" value="Registrer meg"/>
+        </div>
+    </div>
+    </div>
+  </body>
+</html>

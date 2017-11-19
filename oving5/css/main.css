@@ -1,0 +1,44 @@
+.kursiv {
+  font-style: oblique;
+  font-weight: bold;
+}
+
+
+html {
+  font-family: "Comic Sans MS", Helvetica;
+  background-image: url(../images/hest_flip.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#header {
+
+
+}
+
+#sidetittel {
+
+}
+
+
+#innmeldingsSjema {
+
+}
+
+
+#sjemaKnapper {
+
+}
+
+.verdier {
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 3em;
+  margin-top: 3em;
+  margin-left: 3em;
+  border: 0.75em solid;
+  border-color: grey;
+  border-radius: 25px;
+  width: 30em;
+}

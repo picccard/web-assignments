@@ -1,0 +1,20 @@
+.bilde {
+  width: 480px;
+  height: 360px;
+  margin: 1em;
+  border: 1px solid #4d4d4d;
+  opacity: .5;
+}
+
+.indre {
+  border: 2px solid #404040;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+  background-color: #e6e6e6;
+}
+
+body {
+  background-color: #595959;
+}
